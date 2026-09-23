@@ -1,6 +1,5 @@
 import React,{useState} from 'react';import{createRoot}from'react-dom/client';import axios from'axios';import{Upload,BrainCircuit,TrendingUp,WalletCards,MessageSquare,FileText,ArrowUpRight,ArrowDownRight}from'lucide-react';import{BarChart,Bar,XAxis,YAxis,Tooltip,ResponsiveContainer}from'recharts';import'./styles.css';
-const API='http://localhost:8000';
-
+const API='https://agentic-bank-statement-analyzer.onrender.com';
 function App(){
   const[file,setFile]=useState(null);
   const[data,setData]=useState(null);
